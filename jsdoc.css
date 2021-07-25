@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    margin: 0;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-right: 2px solid rgb(204, 204, 204);
+}
+
+#navbar header {
+    font-weight: thin;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#navbar ul {
+    height: 95%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li {
+    list-style: none;
+    margin-left: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid black;
+    padding-left: 35px;
+    position: relative;
+    width: 100%;
+}
+
+#navbar  a {
+    margin-left: 0;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 350px;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300px;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(204, 204, 204);
+    }
+
+    #navbar ul {
+        height: 86%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }  
+
+    #navbar header {
+        height: 14%;
+        color: black;
+        font-size: 32px;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 310px;
+      }
+}
+
+
+p {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+section header {
+    color: black;
+    font-size: 32px;
+}
+
+section ul {
+    margin-right: 35px;
+ }
+
+section li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.div-code {
+    margin: auto;
+    width: 75%;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);
+}
+
